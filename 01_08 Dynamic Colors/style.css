@@ -1,0 +1,140 @@
+/* 1 */
+.bttn1 {
+  width: 24%;
+  height: 900px;
+  /* background: transparent; */
+  background-image: url(JHover_-01.png);
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.bttn1:hover {
+  background: scroll;
+  background-image: url(JHover_-01.png);
+}
+/* 2 */
+.bttn2 {
+  width: 24%;
+  height: 900px;
+  /* background: transparent; */
+  background-image: url(JHover_-02.png);
+  background-attachment: inherit;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.bttn2:hover {
+  /* background: scroll; */
+  background-image: url(JHover_-02.png);
+}
+/* 3 */
+.bttn3 {
+  width: 24%;
+  height: 900px;
+  /* background: transparent; */
+  background-image: url(JHover_-03.png);
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 2500;
+}
+
+.bttn3:hover {
+  background: scroll;
+  background-image: url(JHover_-03.png);
+}
+/* 4 */
+.bttn4 {
+  width: 24%;
+  height: 900px;
+  /* background: transparent; */
+  background-image: url("JHover_-04.png");
+  background-attachment: fixed;
+}
+
+.bttn4:hover {
+  background: scroll;
+  color: #31014f;
+  background-image: url("JHover_-04.png");
+  background-attachment: repeat;
+}
+
+/* J in center of logo */
+.logoJ {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  animation-name: exampleJ;
+  animation-duration: 5.5s;
+  z-index: 3000;
+  left: 50px;
+  top: 50px;
+}
+@keyframes exampleJ {
+  0%   {right:-500px; top:0px;}
+  /* 25%  {left:200px; top:0px;} */
+  50%  {left:900px; top:200px;}
+  75%  {left:0px; top:-50;}
+  100% {left:20px; top:20px;}
+}
+/* Ring aorund logo */
+.logoR {
+  width: 100px;
+  height: 100px;
+  z-index: 500;
+  position: absolute;
+  animation-name: exampleR;
+  animation-duration: 6s;
+  left: 50px;
+  top: 50px;
+}
+@keyframes exampleR {
+  0%   {left:50%; top:50%;}
+  /* 25%  {left:200px; top:0px;}
+  50%  {left:200px; top:200px;}
+  75%  {left:0px; top:200px;} */
+  100% {left:20px; top:20px;}
+}
+
+/* Back white face */
+.logoB {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: exampleB;
+  animation-duration: 7s;
+  z-index: 100;
+  left: 50px;
+  top: 40px;
+}
+@keyframes exampleB {
+  0%   {left:0px; top:-500px;}
+  25%  {left:200px; top:0px;}
+  50%  {left:200px; top:200px;}
+  75%  {left:0px; top:200px;}
+  100% {left:20px; top:20px;}
+}
+
+/* gray circle as backdrop */
+
+
+.logoD {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: exampleD;
+    animation-duration: 6s;
+    animation-delay: 1s;
+    z-index: 50;
+    opacity: 100%;
+    left: -64px;
+    top: 40px;
+}
+@keyframes exampleD {
+  0%   {left:-100px; top:0px;}
+  /* 25%  {left:0px; top:0px;} */
+  50%  {left:-100px; top:109px; opacity:0%;}
+  /* 75%  {left:0px; top:0px;} */
+  100% {left:-80px; top:20px; }
+}
+
+.topRow {
+  height: 10rem;
+}
+
